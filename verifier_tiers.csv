@@ -1,0 +1,16 @@
+citation_key,result,role,capability_required,tier,stage
+bourtoule2021,"Exact unlearning (SISA)",guarantee,"partition and order the training data",T3,stage
+guo2019,"Certified removal",guarantee,"run the removal mechanism; read the proof",T3 / none,any
+jia2021,"Proof-of-learning",guarantee,"record and release the training trajectory",T3,any
+choi2023,"Proof-of-training-data",guarantee,"pre-commit a training seed; hold the data",T3,any
+guo2024,"Attested training in an enclave",guarantee,"run inside an attested runtime",T3,any
+abadi2016,"DP-SGD on the deployer's own fine-tune",guarantee,"control that training stage",T3,fine-tune
+nasr2023,"Two-run tight DP audit",guarantee,"observe all model updates",T3,any
+annamalai2024,"Worst-case-init DP audit",guarantee,"set initial parameters",T3,any
+cebere2024,"Hidden-state DP audit",guarantee,"insert crafted gradients",T3,any
+goel2026,"Representation audit of unlearning",instrument,"read internal representations",T2,any
+chen2025,"Soft-token elicitation",instrument,"gradients through the model",T2,any
+staufer2025,"Canary personal-data probe",instrument,"token log-probabilities; pre-built canaries",T1,any
+shokri2017,"Membership inference",instrument,"confidence vector; shadow models",T1,any
+zhang2024,"Adversarial-unlearning detection",instrument,"re-run the verification strategy",T2,any
+feng2025,"Unlearning benchmarks",instrument,"query access; controlled forget set",T0/T1,any
